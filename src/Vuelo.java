@@ -79,7 +79,7 @@ public abstract class Vuelo {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
-    public abstract void incrementoPrecio();
+    public abstract double incrementoPrecio();
     @Override
     public String toString() {
         return "Vuelo{" +
