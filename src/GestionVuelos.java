@@ -93,7 +93,8 @@ public class GestionVuelos {
         nuevoVuelo.setNombre(nombre);
         nuevoVuelo.setPrecio(precio);
         return nuevoVuelo;
-
     }
+
+    public void mostrarvaina(){}
 
 }
